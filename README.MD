@@ -1,0 +1,1 @@
+This project provides a function to output the last operations with masked account and card numbers.
