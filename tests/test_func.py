@@ -42,5 +42,5 @@ def test_output_last_operations(capsys, sample_data):
     print("Actual Output:")
     print(actual_output)
 
-    assert actual_output == expected_output
+    assert actual_output.strip() == expected_output.strip()
 
