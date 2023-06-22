@@ -35,3 +35,4 @@ def output_last_operations(data):
 
         output = f"{formatted_date} {description}\n {card_name} {masked_card} -> {masked_account}\n{amount} {currency}"
         print(output)
+        print()
